@@ -1,0 +1,67 @@
+/* basemap widget */
+.dijit .dijitReset .dijitInline .dijitDropDownButton .configSwitcherWidg .dijitDropDownButton {
+    margin: 0;
+    background-color: #fff !important;    
+}
+
+.dijit .dijitReset .dijitInline .dijitDropDownButton .configSwitcherWidg .dijitButtonNode {
+    background-color: #fff !important;
+    background-image: none;
+    border: 1px solid #666;
+    border-radius: 10px;
+}
+
+.configSwitcherWidg .dijitButtonNode:hover {
+    background-color: #F5F5F5;
+}
+
+.congifSwitcherWidg .dijitButtonNode {
+    background-color: #fff !important;  
+}
+
+.configSwitcherWidg .selectedIcon:before,
+.configSwitcherWidg .emptyIcon:before,
+.configSwitcherWidg .configSwitcherIcon:before {
+  font-family: FontAwesome;
+}
+
+.configSwitcherWidg .selectedIcon:before {
+  content: "\f046";
+    color: darkred;
+}
+
+.configSwitcherWidg .emptyIcon:before {
+  content: "\f096";
+}
+
+.configSwitcherWidg .configSwitcherIcon:before {
+  content: "\f0ec";
+}
+
+
+/* condense dropdown on small screens */
+
+@media (max-width: 768px) {
+  .cmv .map .configSwitcherWidg .dijitDropDownButton .dijitButtonNode {
+    padding: 4px 8px;
+  }
+  .cmv .map .configSwitcherWidg .dijitButtonText {
+    display: none;
+  }
+}
+
+
+.configSwitcherWidg .dijitButtonNode {
+    background-color: #fff !important;
+    background-image: none;
+    border: 1px solid #666;
+    border-radius: 8px;
+}
+.dijitReset .dijitInline .dijitButtonNode {
+        background-color: #fff !important;
+}
+
+.configSwitcherWidge .flat .dijitButton .dijitButtonNode, .flat .dijitDropDownButton .dijitButtonNode, .flat .dijitComboButton .dijitButtonNode, .flat .dijitToggleButton .dijitButtonNode, .flat .dijitComboBox .dijitButtonNode, .flat .dijitSpinnerButtonContainer.dijitButtonNode, .flat .dijitSelect .dijitButtonNode {
+    background-image:none;
+    background-color: #666;
+}
